@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-image: url(images/bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+
+.main .box {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    max-width: 76vw;
+    margin: auto;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    position: relative;
+    z-index: 10;
+    height: calc(100vh - 100px);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: "Martel Sans", cursive;
+}
+
+.hero> :first-child {
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+
+.hero>:nth-child(2) {
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+
+.email-box {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.email-box input {
+    width: 350px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.email-box button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+body {
+    background-color: black;
+}
+
+.seperation {
+    height: 5px;
+    background-color: gray;
+    position: -80px;
+}
+
+.btn {
+    padding: 8px 30px;
+    font-weight: 400;
+    color: white;
+    border: 1px solid white;
+    border-radius: 6px;
+    background-color: rgba(23, 23, 23, 0.4);
+    cursor: pointer;
+}
+
+.red1 {
+    background-color: red;
+    color: white;
+    padding: 9px 11px;
+    border-radius: 6px;
+    border: 2px;
+}
+
+.red2 {
+    background-color: red;
+    color: white;
+    border: 0px;
+}
+
+.hero input {
+    background-color: rgba(23, 23, 23, 0.4);
+    border: 0px;
+}
+
+.upper-btns {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-sec {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: auto;
+    color: white;
+    align-items: center;
+    gap: 60px;
+    padding: 60px 20px;
+    height: 300px;
+}
+
+.first-sec .one {
+    font-weight: bolder;
+    white-space: nowrap;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 40px;
+}
+
+.first-sec>div:first-child {
+    flex: 1;
+    min-width: 300px;
+}
+
+.first-sec .two {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.firstimg {
+    width: 300px;
+    flex-shrink: 0;
+}
+
+.tv-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.tv-wrapper img {
+    width: 100%;
+    display: block;
+    position: relative;
+    z-index: 10;
+}
+
+.tv-video {
+    position: absolute;
+    top: 20%;
+    left: 13%;
+    width: 74%;
+    height: 55%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.sec-sec {
+    color: white;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec-sec .sec-one {
+    white-space: nowrap;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 40px;
+    font-weight: bolder;
+}
+
+.sec-sec .sec-two {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.third-sec {
+    color: white;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-sec .third-one {
+    white-space: nowrap;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 40px;
+    font-weight: bolder;
+}
+
+.third-sec .third-two {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.third-sec .tv-video {
+    object-fit: fill;
+}
+
+.faq {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0px;
+    width: 100%;
+    background-color: black;
+    gap: 8px;
+}
+
+.faq h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.faq .box {
+    background-color: rgb(31, 30, 30);
+    width: 60%;
+    padding: 18px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.faq .box span {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+.faq .box:hover {
+    background-color: rgb(70, 70, 70);
+}
+
+@media screen and (max-width: 950px) {
+    .first-sec,
+    .sec-sec,
+    .third-sec {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: auto;
+        padding: 40px 20px;
+    }
+    .first-sec .one,
+    .sec-sec .sec-one,
+    .third-sec .third-one {
+        white-space: normal;
+    }
+    .firstimg {
+        width: 60%;
+        max-width: 400px;
+    }
+    .faq .box {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    nav {
+        max-width: 92vw;
+        height: 70px;
+    }
+    nav img {
+        width: 100px;
+    }
+    .upper-btns {
+        gap: 10px;
+    }
+    .btn {
+        padding: 6px 14px;
+        font-size: 13px;
+    }
+    .hero > :first-child,
+    .hero > :nth-child(2) {
+        font-size: 28px;
+    }
+    .hero .small {
+        font-size: 14px;
+        padding: 0 8px;
+        text-align: center;
+    }
+    .email-box {
+        flex-direction: column;
+        width: 100%;
+        padding: 0 16px;
+        box-sizing: border-box;
+    }
+    .email-box input {
+        width: 100%;
+        max-width: 320px;
+        box-sizing: border-box;
+    }
+    .email-box button {
+        width: 100%;
+        max-width: 320px;
+        text-align: center;
+    }
+    .first-sec,
+    .sec-sec,
+    .third-sec {
+        padding: 40px 16px;
+        gap: 30px;
+    }
+    .first-sec .one,
+    .sec-sec .sec-one,
+    .third-sec .third-one {
+        font-size: 26px;
+        margin-bottom: 16px;
+    }
+    .first-sec .two,
+    .sec-sec .sec-two,
+    .third-sec .third-two {
+        font-size: 16px;
+    }
+    .firstimg {
+        width: 85%;
+    }
+    .faq h2 {
+        font-size: 26px;
+    }
+    .faq .box {
+        width: 92%;
+        padding: 14px 16px;
+        box-sizing: border-box;
+    }
+    .faq .box span {
+        font-size: 15px;
+    }
+}
